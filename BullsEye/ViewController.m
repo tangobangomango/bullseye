@@ -13,6 +13,12 @@
 @property (weak, nonatomic) IBOutlet UILabel *scoreLabel;
 @property (weak, nonatomic) IBOutlet UILabel *roundLabel;
 
+- (IBAction)newGameButton:(id)sender;
+- (IBAction)infoButton:(id)sender;
+
+- (IBAction)getSliderValue:(id)sender;
+@property (weak, nonatomic) IBOutlet UISlider *setSliderValue;
+
 @end
 
 @implementation ViewController
@@ -29,4 +35,12 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)newGameButton:(id)sender {
+}
+
+- (IBAction)infoButton:(id)sender {
+}
+
+- (IBAction)getSliderValue:(id)sender {
+}
 @end
